@@ -1,0 +1,5 @@
+from math import(pow,sqrt)
+c = int(input('cateto oposto:'))
+b = int(input('cateto adjacente:'))
+a = pow(c, 2) + pow(b, 2)
+print(f' a medida dos catetos são, repectivamente, {c}, {b}. logo a medida da hipotenusa é {int(sqrt(a))}')

@@ -1,0 +1,17 @@
+#a = input('digite algo:')
+#print('qual é o tipo primitivo?', type(a))
+#print('é um numero?' ,str.isnumeric(a))
+#print('é uma letra?' ,str.isalpha(a))
+#print('esta em maiusculo?', str.isupper(a))
+#print('esta em minusculo?', str.islower(a))
+#print('contem espaço?',str.isspace(a))
+#print('é uma letra e um numero?', str.isalnum(a))
+
+a = input('Teste de caracteres do teclado: ')
+print(f'É uma letra? {a.isalpha()}')
+print(f'É um número? {a.isnumeric()}')
+print(f'Há espaços? {a.isspace()}')
+print(f'É uma letra e um número? {a.isalnum()}')
+print(f'Está em maiusculo? {a.isupper()}')
+print(f'Está em minusculo? {a.islower()}')
+
